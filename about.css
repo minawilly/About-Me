@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+}
+.topnav{
+    background-color: darkslategrey;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.topnav a{
+    float: left;
+    color: orchid;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: #2ecc71;
+    color: black;
+}
+.topnav a.active{
+    background-color: orchid;
+    color: darkslategrey;
+}
+.box{
+    width: 450px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+.square{
+    width: 700px;
+    height: 450px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+.rect{
+    width: 1000px;
+    height: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+.kite{
+    width: 1000px;
+    height: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    height: 300px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+.box h1, .square h1, .rect h1{
+    color: #2ecc71;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: cursive;
+}
+.square p{
+    color: #5dd38e;
+}
+.kite h1, blockquote{
+    color: orchid;
+    font-family: cursive;
+}
+.box input[type= "text"], .box input[type= "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.square input[type= "text"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 500px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.rect input[type= "text"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 400px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+#message{
+    height: 100px;
+}
+.box input[type= "text"]:focus, .box input[type= "password"]:focus{
+    width: 300px;
+    border-color: #2ecc71;
+}
+.square input[type= "text"]:focus{
+    border-color: #2ecc71;
+}
+.rect input[type="text"]:focus{
+    border-color: #2ecc71;
+}
+.box input[type= "submit"], .square input[type= "submit"], .rect input[type= "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;   
+}
+.box input[type= "submit"]:hover, .square input[type= "submit"]:hover, .rect input[type= "submit"]:hover{
+    background-color: #2ecc71;
+}
+.please{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.selector{
+    border: 0;
+    background: #191919;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 425px;
+    outline: none;
+    color: grey;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.selector:focus{
+    border-color: #2ecc71
+}
+blockquote{
+    font-size: 20px;
+}
+.texter{
+    font-size: 17px;
+    font-weight: 500;
+    color: orchid;
+    font-family: cursive;
+}
+.btn{
+    color: black;
+    background: linear-gradient(135deg, #2ecc71, #9b59b6);
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 24px;
+    font-family: cursive;
+    font-size: 17px;
+}
+.btn:hover{
+    background: linear-gradient(-135deg, #2ecc71, #9b59b6);
+}
+ul{
+    overflow: hidden;
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1fr 1fr ;
+}
